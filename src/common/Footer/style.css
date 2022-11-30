@@ -1,0 +1,44 @@
+footer {
+    background-color: #FF7000;
+  
+    color: #fff;
+  }
+  footer .img {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  footer .img i {
+    font-size: 20px;
+    margin: 5px;
+    
+  }
+  footer .img span {
+    margin-top: 5px;
+    color: #FF7000;
+  }
+  footer p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.5;
+    margin-bottom: 20px;
+  }
+  footer h2 {
+    margin-bottom: 20px;
+  }
+  footer li {
+    margin-bottom: 10px;
+    opacity: 0.5;
+  }
+  .footerSvg
+  {
+    position: relative;
+    z-index: -1;
+    top: 150px;
+  }
+.grid3
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
